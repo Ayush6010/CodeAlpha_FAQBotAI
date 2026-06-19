@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is Artificial Intelligence (AI)?",
+    "answer": "Artificial Intelligence (AI) is a branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence, such as visual perception, decision-making, learning, and language translation.",
+    "category": "AI Basics"
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning (ML) is a subset of AI that enables systems to learn from data, identify patterns, and make decisions or predictions with minimal human intervention, improving their accuracy over time as they ingest more data.",
+    "category": "AI Basics"
+  },
+  {
+    "question": "What is the difference between Supervised and Unsupervised Learning?",
+    "answer": "Supervised learning uses labeled training datasets to train algorithms to classify data or predict outcomes. Unsupervised learning analyzes and clusters unlabeled datasets to discover hidden patterns or groupings without human intervention.",
+    "category": "AI Basics"
+  },
+  {
+    "question": "What is Natural Language Processing (NLP)?",
+    "answer": "Natural Language Processing (NLP) is an interdisciplinary field of computer science and AI concerned with giving computers the ability to understand, interpret, manipulate, and generate human language in a useful way.",
+    "category": "NLP"
+  },
+  {
+    "question": "How does a TF-IDF vectorizer work?",
+    "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) measures how important a word is to a document in a collection. Term Frequency (TF) counts word occurrences in a document, while Inverse Document Frequency (IDF) scales down words that appear frequently across all documents (like 'the', 'is'), highlighting rare and descriptive words.",
+    "category": "NLP"
+  },
+  {
+    "question": "What is Cosine Similarity?",
+    "answer": "Cosine similarity measures the similarity between two non-zero vectors by calculating the cosine of the angle between them. In text classification, it calculates how close two documents are in orientation within the multi-dimensional TF-IDF vector space, returning a score between 0 (completely different) and 1 (identical).",
+    "category": "NLP"
+  },
+  {
+    "question": "What is Streamlit?",
+    "answer": "Streamlit is an open-source Python framework that allows developers and data scientists to build and share interactive web applications for machine learning and data science projects quickly, requiring no front-end HTML/CSS/JS expertise.",
+    "category": "Streamlit"
+  },
+  {
+    "question": "How do you manage session state in Streamlit?",
+    "answer": "Streamlit manages session state using `st.session_state`. This is a dictionary-like object that persists key-value variables across reruns of the application for each user session, making it ideal for tracking user logs, shopping carts, or chatbot conversation history.",
+    "category": "Streamlit"
+  },
+  {
+    "question": "What is the purpose of st.cache_data in Streamlit?",
+    "answer": "The `@st.cache_data` decorator is used to cache functions that return data (such as API calls, database queries, or text load operations). This avoids executing expensive computation multiple times, speeding up the app significantly during user interactions.",
+    "category": "Streamlit"
+  },
+  {
+    "question": "Which Python library is best for object detection?",
+    "answer": "Popular Python libraries for object detection include OpenCV (for classic computer vision and deep learning inference modules like DNN), Ultralytics (for YOLOv8 models), TensorFlow Object Detection API, and PyTorch (Torchvision models like Faster R-CNN).",
+    "category": "Computer Vision"
+  },
+  {
+    "question": "What is YOLO?",
+    "answer": "YOLO (You Only Look Once) is a popular, state-of-the-art real-time object detection system. Instead of scanning an image multiple times, YOLO applies a single neural network to the full image, dividing it into regions and predicting bounding boxes and probabilities for each region simultaneously, making it extremely fast and accurate.",
+    "category": "Computer Vision"
+  },
+  {
+    "question": "How does object tracking differ from object detection?",
+    "answer": "Object detection is the task of locating and classifying objects in a single frame. Object tracking associates those detected objects across consecutive frames in a video, assigning a persistent, unique ID (e.g. 'Person #1') to each object and tracking its motion path over time.",
+    "category": "Computer Vision"
+  },
+  {
+    "question": "How do I install dependencies for these projects?",
+    "answer": "To install dependencies, navigate to the specific project folder in your command terminal and run: `pip install -r requirements.txt`. This will download and configure all necessary libraries.",
+    "category": "Internship Help"
+  },
+  {
+    "question": "How do I deploy these applications to Streamlit Cloud?",
+    "answer": "To deploy to Streamlit Cloud: 1. Push your project files to a GitHub repository. 2. Log in at share.streamlit.io using GitHub. 3. Click 'New app', select your repository, branch, and specify the main file (e.g. `app.py`). 4. Click 'Deploy!' Your application will go live in a few minutes.",
+    "category": "Internship Help"
+  },
+  {
+    "question": "What is the submission requirement for my AI internship?",
+    "answer": "For a successful AI internship portfolio submission, ensure each project has a clean, bug-free codebase, separate folders, a modular structure, a clear requirements.txt for dependencies, and a detailed README.md explaining installation, usage, and system features.",
+    "category": "Internship Help"
+  }
+]
