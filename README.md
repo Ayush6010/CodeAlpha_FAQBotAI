@@ -4,7 +4,7 @@ An intelligent NLP-powered FAQ support assistant built with **Python**, **Stream
 ---
 ## Live Application
 
-**Deployment Link**:
+**Website Link**:
 
 https://codealphafaqbotai.streamlit.app/
 
